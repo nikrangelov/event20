@@ -12,10 +12,11 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'war'
+apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'gs-spring-boot'
+    baseName = 'event20'
     version =  '0.1.0'
 }
 
@@ -30,6 +31,7 @@ dependencies {
 
     // Spring Framework
     compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
     //compile("org.springframework.boot:spring-boot-starter-security")
     //compile("org.springframework.boot:spring-boot-starter-data-jpa")
 
