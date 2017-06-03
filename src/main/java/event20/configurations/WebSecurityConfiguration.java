@@ -2,6 +2,7 @@ package event20.configurations;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -18,6 +19,13 @@ import javax.sql.DataSource;
 @EnableWebSecurity
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+    @Bean
+    public BCryptPasswordEncoder passwordEncoder() {
+        BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+        return bCryptPasswordEncoder;
+    }
+
+
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
@@ -33,6 +41,10 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
+                //.authorizeRequests()
+                //.antMatchers("/employee/me").authenticated()
+                //.antMatchers("/**").permitAll();
+
                 .authorizeRequests()
                 .antMatchers("/", "/home", "/registerUser", "/maxId").permitAll()
                 .anyRequest().authenticated()
@@ -43,6 +55,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and()
                 .logout()
                 .permitAll();
+
     }
 
     @Autowired

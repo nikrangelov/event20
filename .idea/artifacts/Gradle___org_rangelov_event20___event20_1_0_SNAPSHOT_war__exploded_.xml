@@ -17,10 +17,14 @@
           <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:1.5.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-data-jpa:1.5.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-security:1.5.2.RELEASE" />
           <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.13" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf-spring4:2.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.4.0" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.3.4.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.7" />
@@ -33,11 +37,17 @@
           <element id="library" level="project" name="Gradle: javax.transaction:javax.transaction-api:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:1.11.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aspects:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-config:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-web:4.2.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.5.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.2.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.7.RELEASE" />
           <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.17" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf:2.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.24" />
+          <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy:2.4.9" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.11" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.11" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.11" />
@@ -46,7 +56,6 @@
           <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.3" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.7" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.7.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.7.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.7.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.7.RELEASE" />
@@ -62,24 +71,47 @@
           <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:1.13.1.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.7.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.7.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.24" />
           <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.24" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-core:4.2.2.RELEASE" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.11" />
           <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.24" />
           <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.24" />
+          <element id="library" level="project" name="Gradle: ognl:ognl:3.0.8" />
+          <element id="library" level="project" name="Gradle: org.unbescape:unbescape:1.1.0.RELEASE" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.11" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.11" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.5.2.RELEASE/f72002abba821b4b7bf6f32afac33b526607c2af/spring-boot-starter-thymeleaf-1.5.2.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/1.5.2.RELEASE/9d7dcade0fd23664247d8d1ab1bb44cf7ed1edf7/spring-boot-starter-security-1.5.2.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring4/2.1.5.RELEASE/74cb9028e99597b5d71a98e919fd531a7fc290b4/thymeleaf-spring4-2.1.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect/1.4.0/8d7810c069ed1534b9631fb1e85c35973546086/thymeleaf-layout-dialect-1.4.0.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/4.2.2.RELEASE/1129e18946a6af408f96e4e0c42c4313f6e191b4/spring-security-config-4.2.2.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/4.2.2.RELEASE/632c66fc1c826748f64867689c6688765db593c9/spring-security-web-4.2.2.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/2.1.5.RELEASE/513bffa3daaac277460c1a0a2dccb228fa40569e/thymeleaf-2.1.5.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.9/f2d11babe9a12219fe74e3518d55d9502527b9b9/groovy-2.4.9.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.2.RELEASE/b4797b71d9f7d1a4b76b5d095ac20868369a8c31/spring-security-core-4.2.2.RELEASE.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.0.8/37e1aebfde7eb7baebc9ad4f85116ef9009c5fc5/ognl-3.0.8.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.0.RELEASE/ab0db4fe0a6fa89fb8da2a40008a4e63a7f3f5b9/unbescape-1.1.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jersey/1.5.2.RELEASE/33cceb2215fd3b6bb37619927586f82fa4d5ab00/spring-boot-starter-jersey-1.5.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.5.2.RELEASE/2eb3cf38e0ab2611f305626ea5dc96619ddadc1d/spring-boot-starter-validation-1.5.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-server/2.25.1/276e2ee0fd1cdabf99357fce560c5baab675b1a2/jersey-server-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.25.1/400e30bb035a0cdf3c554530224141ce659a0d1e/jersey-container-servlet-core-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.25.1/cf5f7a76fcea38158b890ab7a0142d4db709a882/jersey-container-servlet-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-bean-validation/2.25.1/1971927d79cad0ad2b5a3bfda24967748a2023d/jersey-bean-validation-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-spring3/2.25.1/a31bfcd2fcae5beb979d3f41079b6f4020d6fbc9/jersey-spring3-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-json-jackson/2.25.1/19d1e4276eb7b6386640c344d9e5c01eba7eae5d/jersey-media-json-jackson-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-common/2.25.1/2438ce68d4907046095ab54aa83a6092951b4bbb/jersey-common-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.core/jersey-client/2.25.1/4d563b1f93352ee9fad597e9e1daf2c6159993c6/jersey-client-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.0.1/104e9c2b5583cfcfeac0402316221648d6d8ea6b/javax.ws.rs-api-2.0.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.media/jersey-media-jaxb/2.25.1/d7da0beeed5614a3bfd882662faec602699e24b/jersey-media-jaxb-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-api/2.5.0-b32/6a576c9653832ce610b80a2f389374ef19d96171/hk2-api-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/javax.inject/2.5.0-b32/b2fa50c8186a38728c35fe6a9da57ce4cc806923/javax.inject-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-locator/2.5.0-b32/195474f8ad0a8d130e9ea949a771bcf1215fc33b/hk2-locator-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/2.5.0-b32/c3accae585955e49c771d464899e906ecc9ffb4/hk2-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/spring-bridge/2.5.0-b32/f38ecef23edc769942a95c062efd63541044de42/spring-bridge-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.ext/jersey-entity-filtering/2.25.1/4a5805060f796ec2c9bb1ba0ce91c1db6d889524/jersey-entity-filtering-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.8.7/814af809cd9fca86e9d89c17080bb0446b06569d/jackson-jaxrs-base-2.8.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.8.7/3d6ac461d0b478c85ca380468f675c7217295591/jackson-jaxrs-json-provider-2.8.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.bundles.repackaged/jersey-guava/2.25.1/a2bb4f8208e134cf2cf71dfb8824e42942f7bd06/jersey-guava-2.25.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/osgi-resource-locator/1.0.1/4ed2b2d4738aed5786cfa64cba5a332779c4c708/osgi-resource-locator-1.0.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-utils/2.5.0-b32/5108a926988c4ceda7f1e681dddfe3101454a002/hk2-utils-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/aopalliance-repackaged/2.5.0-b32/6af37c3f8ec6f9e9653ec837eb508da28ce443cd/aopalliance-repackaged-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/config-types/2.5.0-b32/686bbe7f80b1b879d64c06bc6606c97721a795f2/config-types-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-core/2.5.0-b32/8cb6a8a9522ec523b7740d29f555bdbe9d936af2/hk2-core-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-config/2.5.0-b32/dce05ac4225dbc0c1c382ad02e3b5bee51f0168a/hk2-config-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2-runlevel/2.5.0-b32/60dc979763ea885e796cba4d3e322af8d500ba74/hk2-runlevel-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/class-model/2.5.0-b32/17f054f3e91898c0c0fc52163ad904b13c24e8b/class-model-2.5.0-b32.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.8.7/4d7e1de1694d9f95eada828dabf43121b3afc435/jackson-module-jaxb-annotations-2.8.7.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2.external/asm-all-repackaged/2.5.0-b32/dc705f1d54cd5a96cbc5a473525e75ef1cb59a9e/asm-all-repackaged-2.5.0-b32.jar" />
         </element>
       </element>
     </root>
