@@ -34,6 +34,12 @@ public class UserServiceImplementation implements UserService {
 
     @Override
     public void saveUser(User user) {
+        Long maxId = userRepository.findMaxId();
+        if(maxId == null){
+            maxId = 1L;
+        }
+        Long nextId = maxId + 1L;
+        user.setId(nextId);
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         user.setActive(1);
         Role userRole = roleRepository.findByRole("ROLE_USER");

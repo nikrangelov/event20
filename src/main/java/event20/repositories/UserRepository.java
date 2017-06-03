@@ -1,6 +1,7 @@
 package event20.repositories;
 
 import event20.entities.User;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -21,4 +22,8 @@ public interface UserRepository extends CrudRepository<User, Long>{
     List<User> findByLastName(String lastName);
 
     User findByEmail(String email);
+
+    @Query("select max(t.id) from User t")
+    Long findMaxId();
+
 }

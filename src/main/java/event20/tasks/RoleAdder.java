@@ -28,22 +28,28 @@ public class RoleAdder implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments applicationArguments) throws Exception {
-        // TODO: Add roles in the database
-        // Add user role if does not exist.
-        Role role = roleService.findByRole("ROLE_USER");
 
-        if(role == null) {
-            Role userRole = new Role("ROLE_USER");
-            roleService.save(userRole);
+        Role userRole = roleService.findByRole("ROLE_USER");
+
+        if(userRole == null) {
+            Role role = new Role("ROLE_USER");
+            roleService.save(role);
         }
+
+        Role adminRole = roleService.findByRole("ROLE_ADMIN");
+
+        if(adminRole == null){
+            Role role = new Role("ROLE_ADMIN");
+            roleService.save(role);
+        }
+
 
         User user = userService.findUserByEmail("ivan@ivanov.com");
 
         if(user == null){
             User defaultUser = new User("Ivan", "Ivanov", "ivan@ivanov.com");
             defaultUser.setPassword("1234");
-            //userService.saveUser(defaultUser);
-            //some problem occurs here
+            userService.saveUser(defaultUser);
         }
         log.info("Adding roles and user to database");
     }

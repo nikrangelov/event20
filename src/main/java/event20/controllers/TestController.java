@@ -1,6 +1,7 @@
 package event20.controllers;
 
 import event20.entities.User;
+import event20.repositories.UserRepository;
 import event20.services.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +17,9 @@ public class TestController {
     @Autowired
     UserService userService;
 
+    @Autowired
+    UserRepository userRepository;
+
     @RequestMapping("/test")
     public String test(){
         return "Hello, everything is working ok!";
@@ -27,5 +31,11 @@ public class TestController {
         defaultUser.setPassword("1234");
         userService.saveUser(defaultUser);
         return "OK! User Registered";
+    }
+
+    @RequestMapping("/maxId")
+    public String getUserMaxId(){
+        Long id = userRepository.findMaxId();
+        return "Result: " + id;
     }
 }
